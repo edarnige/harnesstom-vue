@@ -69,8 +69,14 @@ h2,h5,p{
 }
 
 .card{
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
   width: 18rem;
   height: 400px;
+  background-color: #E8E5DD40;
+
+
 }
 
 button{
@@ -88,6 +94,7 @@ img{
 
 .row{
   margin-top: 75px;
+  position: center;
 }
 
 </style>
